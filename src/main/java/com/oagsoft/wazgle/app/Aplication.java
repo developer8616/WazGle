@@ -68,7 +68,6 @@ public class Aplication extends JFrame implements ActionListener
         subMenu = new JMenu("Herramientas");
         subMenu.add(FactoryItem.createMenuItem("Mostrar Grafo", "mostrarGrafo", this, KeyEvent.VK_M));
         subMenu.add(FactoryItem.createMenuItem("Imagen Satelite", "imagenSatelite", this, KeyEvent.VK_P));
-        subMenu.add(FactoryItem.createMenuItem("Test", "imagenSatelite", this, KeyEvent.VK_P));
         miBarraMenu.add(subMenu);
 
         return miBarraMenu;
